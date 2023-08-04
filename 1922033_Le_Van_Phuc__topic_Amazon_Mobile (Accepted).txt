@@ -1,0 +1,4 @@
+Name: Lê Văn Phúc
+Student ID:19522033
+Topic: Amazon Mobile
+link kaggle: https://www.kaggle.com/datasets/daishinkan002/amazon-mobile-dataset

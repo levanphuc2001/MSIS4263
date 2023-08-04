@@ -1,0 +1,234 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="68855646-1f2d-4a2a-b2e1-ca3ffbda1b32" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Project_dsv</ID>
+  <Name>Project_dsv</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout />
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>Project_ds</DataSourceID>
+  <Schema>
+    <xs:schema id="Project_dsv" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="Project_dsv" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="36c3919b-8732-411a-8c7c-fc5f9e012c3d">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_des_battery_power" msprop:DbTableName="des_battery_power" msprop:FriendlyName="des_battery_power" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="923a94fe-a150-4290-b31e-d61654a51610">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="batteries" msprop:FriendlyName="batteries" msprop:DbColumnName="batteries" msprop:design-time-name="e897e62d-6b7b-44c4-abe0-20f486b5fcfb" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="battery_power_rating" msprop:FriendlyName="battery_power_rating" msprop:DbColumnName="battery_power_rating" msprop:design-time-name="ee7f101c-7ed5-4fd3-8ba5-8d30e91fe9ed" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="id" msprop:FriendlyName="id" msprop:DbColumnName="id" msprop:design-time-name="65e162fd-8793-41e6-a984-9fd06f60c120">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_des_company" msprop:DbTableName="des_company" msprop:FriendlyName="des_company" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="d2b4a9eb-2bcc-49b0-aecc-a81ef4ce47b4">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="manufacturer" msprop:FriendlyName="manufacturer" msprop:DbColumnName="manufacturer" msprop:design-time-name="5e28fcf7-7b0c-45c8-bc9f-af4af5ac5a2f" type="xs:string" minOccurs="0" />
+                  <xs:element name="country_of_origin" msprop:FriendlyName="country_of_origin" msprop:DbColumnName="country_of_origin" msprop:design-time-name="640616de-ccb5-4a1c-bd6d-5f6059bfff32" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="id" msprop:FriendlyName="id" msprop:DbColumnName="id" msprop:design-time-name="44c52752-b475-4bc7-a0bc-dd42f760be70">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_des_fact" msprop:DbTableName="des_fact" msprop:FriendlyName="des_fact" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="89cd6e34-cb2d-4f6b-8795-fc0ce9a119dc">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="price" msprop:FriendlyName="price" msprop:DbColumnName="price" msprop:design-time-name="16ebbb65-8063-4e71-abc9-60f5c42a62b7" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="rating" msprop:FriendlyName="rating" msprop:DbColumnName="rating" msprop:design-time-name="366b6f8a-322f-4a0e-ad6b-75c8b6aabb1d" type="xs:float" minOccurs="0" />
+                  <xs:element name="total_reviews" msprop:FriendlyName="total_reviews" msprop:DbColumnName="total_reviews" msprop:design-time-name="bc93a9db-3e3b-41cd-92d3-1e404c75c8b7" type="xs:long" minOccurs="0" />
+                  <xs:element name="availability_status" msprop:FriendlyName="availability_status" msprop:DbColumnName="availability_status" msprop:design-time-name="58101433-f8dd-4a9d-915f-833d0fecb3fe" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="product_dimensions" msprop:FriendlyName="product_dimensions" msprop:DbColumnName="product_dimensions" msprop:design-time-name="09676b15-80f8-424d-b5a5-ed32533d4af5">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="weight" msprop:FriendlyName="weight" msprop:DbColumnName="weight" msprop:design-time-name="9bbd47b3-399b-40a9-9757-425c1934c971" type="xs:double" minOccurs="0" />
+                  <xs:element name="number_special_features" msprop:FriendlyName="number_special_features" msprop:DbColumnName="number_special_features" msprop:design-time-name="e5a040fa-584b-4abe-a0aa-3fe9a27fa852" type="xs:long" minOccurs="0" />
+                  <xs:element name="key_company" msprop:FriendlyName="key_company" msprop:DbColumnName="key_company" msprop:design-time-name="233407d6-770d-4222-b71e-7cfc7a59fe76">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="key_battery_power" msprop:FriendlyName="key_battery_power" msprop:DbColumnName="key_battery_power" msprop:design-time-name="3538c625-c8c3-48ce-b2b1-0396fa1643c1">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="key_product" msprop:FriendlyName="key_product" msprop:DbColumnName="key_product" msprop:design-time-name="cf8fef34-03a0-431c-952a-6092afff7e75">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_des_product" msprop:DbTableName="des_product" msprop:FriendlyName="des_product" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="c11c1ac7-5955-4ad8-92c5-db74153dff8c">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="id" msprop:FriendlyName="id" msprop:DbColumnName="id" msprop:design-time-name="ecc183e5-19cc-478a-9ebe-da4c30c8d19d">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="title" msprop:FriendlyName="title" msprop:DbColumnName="title" msprop:design-time-name="279c2c40-04a3-4ecd-8010-d1451769f88a" type="xs:string" minOccurs="0" />
+                  <xs:element name="product_description" msprop:FriendlyName="product_description" msprop:DbColumnName="product_description" msprop:design-time-name="17fbf42c-d314-4e95-a321-b90ab49c01e7" type="xs:string" minOccurs="0" />
+                  <xs:element name="os" msprop:FriendlyName="os" msprop:DbColumnName="os" msprop:design-time-name="125eb6c1-c37d-4475-bb24-cd71fafa263f" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="ram" msprop:FriendlyName="ram" msprop:DbColumnName="ram" msprop:design-time-name="8d6ff983-e390-4a4a-a45e-f96c0a8a474e" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="form_factor" msprop:FriendlyName="form_factor" msprop:DbColumnName="form_factor" msprop:design-time-name="8094cc8f-07a0-40ba-9bf2-427ea925bbfd" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="colour" msprop:FriendlyName="colour" msprop:DbColumnName="colour" msprop:design-time-name="7d4b4be7-034e-4633-bcf6-73d91166938d" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_des_product_dimensions" msprop:DbTableName="des_product_dimensions" msprop:FriendlyName="des_product_dimensions" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="80142b50-f268-46e2-af3b-633d51a80cb3">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="product_dimensions" msprop:FriendlyName="product_dimensions" msprop:DbColumnName="product_dimensions" msprop:design-time-name="5b60a005-7cb6-465a-85d8-5cce0ccc8ef8">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="product_dimension_length" msprop:FriendlyName="product_dimension_length" msprop:DbColumnName="product_dimension_length" msprop:design-time-name="2f2e67f8-b940-4acc-aac9-69ac018c6059" type="xs:float" minOccurs="0" />
+                  <xs:element name="product_dimension_width" msprop:FriendlyName="product_dimension_width" msprop:DbColumnName="product_dimension_width" msprop:design-time-name="2aae0b1c-a05a-4651-8f38-562e6f1c5cc6" type="xs:float" minOccurs="0" />
+                  <xs:element name="product_dimension_height" msprop:FriendlyName="product_dimension_height" msprop:DbColumnName="product_dimension_height" msprop:design-time-name="8525c521-9748-4c01-be0b-61d94f4ccc19" type="xs:float" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_des_battery_power" />
+          <xs:field xpath="id" />
+        </xs:unique>
+        <xs:unique name="dbo_des_company_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_des_company" />
+          <xs:field xpath="id" />
+        </xs:unique>
+        <xs:unique name="dbo_des_fact_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_des_fact" />
+          <xs:field xpath="product_dimensions" />
+          <xs:field xpath="key_company" />
+          <xs:field xpath="key_battery_power" />
+          <xs:field xpath="key_product" />
+        </xs:unique>
+        <xs:unique name="dbo_des_product_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_des_product" />
+          <xs:field xpath="id" />
+        </xs:unique>
+        <xs:unique name="dbo_des_product_dimensions_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_des_product_dimensions" />
+          <xs:field xpath="product_dimensions" />
+        </xs:unique>
+        <xs:keyref name="FK__des_fact__key_ba__55F4C372" refer="Constraint1">
+          <xs:selector xpath=".//dbo_des_fact" />
+          <xs:field xpath="key_battery_power" />
+        </xs:keyref>
+        <xs:keyref name="FK__des_fact__key_pr__56E8E7AB" refer="dbo_des_product_Constraint1">
+          <xs:selector xpath=".//dbo_des_fact" />
+          <xs:field xpath="key_product" />
+        </xs:keyref>
+        <xs:keyref name="FK__des_fact__produc__540C7B00" refer="dbo_des_product_dimensions_Constraint1">
+          <xs:selector xpath=".//dbo_des_fact" />
+          <xs:field xpath="product_dimensions" />
+        </xs:keyref>
+        <xs:keyref name="FK__des_fact__key_co__55009F39" refer="dbo_des_company_Constraint1">
+          <xs:selector xpath=".//dbo_des_fact" />
+          <xs:field xpath="key_company" />
+        </xs:keyref>
+      </xs:element>
+    </xs:schema>
+    <Project_dsv xmlns="" />
+  </Schema>
+</DataSourceView>

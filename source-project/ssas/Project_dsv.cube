@@ -1,0 +1,437 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="df49fa02-74e1-45a6-b189-b1d6d7807f91" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Project_dsv</ID>
+  <Name>Project_dsv</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="20" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-690" scrolltop="36" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="79" x="24299" y="11070" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="des_battery_power" left="20" top="5606" logicalid="10" controlid="1" masterid="0" hint1="0" hint2="0" width="3916" height="1947" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00004c0f00009b070000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_des_battery_power" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="des_company" left="6865" top="482" logicalid="11" controlid="2" masterid="0" hint1="0" hint2="0" width="3408" height="1947" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000500d00009b070000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_des_company" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="des_product" left="17811" top="3814" logicalid="12" controlid="3" masterid="0" hint1="0" hint2="0" width="3725" height="3387" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00008d0e00003b0d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_des_product" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="des_product_dimensions" left="6423" top="9418" logicalid="13" controlid="4" masterid="0" hint1="0" hint2="0" width="4614" height="2307" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00000612000003090000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_des_product_dimensions" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="des_fact" left="6363" top="3141" logicalid="14" controlid="5" masterid="0" hint1="0" hint2="0" width="4466" height="4466" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00007211000072110000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_des_fact" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="3636" top="5074" logicalid="15" controlid="6" masterid="0" hint1="0" hint2="0" width="3027" height="1905" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__des_fact__key_ba__55F4C372]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="5" sourceattachpoint="17" destattachpoint="20" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="3936" y="6579" />
+              <point x="5136" y="6579" />
+              <point x="5136" y="5374" />
+              <point x="6363" y="5374" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="7070" top="1930" logicalid="16" controlid="7" masterid="0" hint1="0" hint2="0" width="799" height="1511" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__des_fact__key_co__55009F39]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="5" sourceattachpoint="1" destattachpoint="2" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="7469" y="2429" />
+              <point x="7469" y="2829" />
+              <point x="7482" y="2829" />
+              <point x="7482" y="2544" />
+              <point x="7496" y="2544" />
+              <point x="7496" y="3141" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="10529" top="5108" logicalid="17" controlid="8" masterid="0" hint1="0" hint2="0" width="7582" height="1666" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__des_fact__key_pr__56E8E7AB]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="5" sourceattachpoint="18" destattachpoint="25" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="17811" y="5507" />
+              <point x="12002" y="5507" />
+              <point x="12002" y="6474" />
+              <point x="10829" y="6474" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="6646" top="7307" logicalid="18" controlid="9" masterid="0" hint1="0" hint2="0" width="834" height="2611" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__des_fact__produc__540C7B00]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="5" sourceattachpoint="2" destattachpoint="1" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="7080" y="9418" />
+              <point x="7080" y="9018" />
+              <point x="6946" y="9018" />
+              <point x="6946" y="7607" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-690</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>36</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>482</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>79</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="dba63d7b-63bf-4eed-8101-f113819ecdd2">
+      <ID>Des Product Dimensions</ID>
+      <Name>Des Product Dimensions</Name>
+      <DimensionID>Des Product Dimensions</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="8b755751-6346-4621-83a8-0d29af965b89">
+          <AttributeID>Product Dimensions</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0e92069c-a64e-42cd-b056-9ccbd5ec279c">
+          <AttributeID>Product Dimension Length</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="77cea68b-23fc-44e8-98c6-953312b36cce">
+          <AttributeID>Product Dimension Width</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e5cfc5f0-516c-40e6-a9e7-169bf2233aca">
+          <AttributeID>Product Dimension Height</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="a81f9c90-d2b3-4116-803d-dafb61252ad5">
+      <ID>Des Company</ID>
+      <Name>Des Company</Name>
+      <DimensionID>Des Company</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="db6bd2c9-543d-4735-85f9-495e2144f02b">
+          <AttributeID>Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="81335c41-c110-4993-9898-3aa93b702849">
+          <AttributeID>Manufacturer</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="88e7637c-3a47-4b8c-ab95-12c6ff6326f5">
+          <AttributeID>Country Of Origin</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="5512bbc5-77f0-4a16-90e2-4d8bb842d917">
+      <ID>Des Product</ID>
+      <Name>Des Product</Name>
+      <DimensionID>Des Product</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="07523df2-b143-463e-928b-9f006c135a39">
+          <AttributeID>Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="21e78d22-e029-4bcf-95cf-28777a56b0ea">
+          <AttributeID>Title</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="614e64f9-d5d8-4cf1-8d93-39f043f4d4c7">
+          <AttributeID>Os</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d8d7d37a-88a9-48ed-8dae-c1ed6a99cfc3">
+          <AttributeID>Ram</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a7b637d6-e0d5-4b32-97d5-55f5ef53242b">
+          <AttributeID>Form Factor</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d831587d-86fa-4ca9-b589-f4097f04ac81">
+          <AttributeID>Colour</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="d2ab3305-c8fe-4b18-b620-5d9c5539d732">
+      <ID>Des Battery Power</ID>
+      <Name>Des Battery Power</Name>
+      <DimensionID>Des Battery Power</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="c3628475-5f20-4351-b01d-17fa618087d7">
+          <AttributeID>Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f2ee515f-c437-4973-b274-8581eb534c1e">
+          <AttributeID>Batteries</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6ef91cd6-d65e-452d-b2f1-223ab52ad627">
+          <AttributeID>Battery Power Rating</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="6db64d33-3c5f-4e38-b26c-6b7fb8cf718d">
+      <ID>Des Fact</ID>
+      <Name>Des Fact</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="30f178de-b805-4912-aea9-eb49226e273f">
+          <ID>Price</ID>
+          <Name>Price</Name>
+          <Source dwd:design-time-name="a25cdfe6-b2e1-404b-91a8-92b097084988">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="c07922cc-615a-4681-83cc-e1d15fa94b7c">
+              <TableID>dbo_des_fact</TableID>
+              <ColumnID>price</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="79a86544-e9fc-4b3f-a995-8de930009877">
+          <ID>Rating</ID>
+          <Name>Rating</Name>
+          <Source dwd:design-time-name="8179799a-de03-4c76-a7c9-d4ae4503e7e4">
+            <DataType>Single</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="6e6f5c2f-7221-4538-8195-64d6f51f9aa2">
+              <TableID>dbo_des_fact</TableID>
+              <ColumnID>rating</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="6b82e658-b271-4c68-9ac1-6de0a7a82cec">
+          <ID>Total Reviews</ID>
+          <Name>Total Reviews</Name>
+          <Source dwd:design-time-name="26d45041-c941-4f54-bb35-6a9414ee39b4">
+            <DataType>BigInt</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="64ae8560-1a60-4922-9759-6f1e59717fa6">
+              <TableID>dbo_des_fact</TableID>
+              <ColumnID>total_reviews</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="d733141d-401f-4ff1-a1cb-28c8d9908cd7">
+          <ID>Weight</ID>
+          <Name>Weight</Name>
+          <Source dwd:design-time-name="79755a55-1a14-4776-8b2e-84d89432ffe5">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="0244c15b-d57f-4786-be9b-e796a470e21a">
+              <TableID>dbo_des_fact</TableID>
+              <ColumnID>weight</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="00d38f59-3b7e-4d45-8864-73cd4dd2cc62">
+          <ID>Number Special Features</ID>
+          <Name>Number Special Features</Name>
+          <Source dwd:design-time-name="7d9d44e6-e713-45a7-a3cc-dfdc540c1f1a">
+            <DataType>BigInt</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="7be0c273-6c21-43a8-9b7e-8aa688de174f">
+              <TableID>dbo_des_fact</TableID>
+              <ColumnID>number_special_features</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="3879028f-8f50-4f20-be45-e1043a45e630">
+          <ID>Des Fact Count</ID>
+          <Name>Des Fact Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="52f68f0c-cfa0-40c9-b415-fe749453d0f1">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="fdafbdff-6369-43a9-b3ed-ea738240d559">
+              <TableID>dbo_des_fact</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="d37d0164-0040-4df1-b8ec-6c057e73e3b7">
+          <CubeDimensionID>Des Company</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="6d583d28-9425-4ca5-895f-b71e92ac6f54">
+              <AttributeID>Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="92881040-6cb3-43de-a7ba-4a82857c675d">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="9a193bb1-0fcb-41d8-8c99-37bf6513f009">
+                    <TableID>dbo_des_fact</TableID>
+                    <ColumnID>key_company</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="f61a4fbd-6af8-4b22-9df3-06aa95438ef0">
+          <CubeDimensionID>Des Product Dimensions</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="1f49eaf6-771e-4b80-81d7-33a20ce78b6c">
+              <AttributeID>Product Dimensions</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="ee4a34ce-fdce-45df-ab6c-fb2829b8faa8">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="e65f386a-9bdb-467d-9196-112ff42b16e0">
+                    <TableID>dbo_des_fact</TableID>
+                    <ColumnID>product_dimensions</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="6f10ca53-8a5a-4f5e-b7bd-3b5c495ae08a">
+          <CubeDimensionID>Des Product</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="969657bb-d9e3-4d6f-8bad-d53bb69f12b4">
+              <AttributeID>Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="65e94d0b-6e0d-4775-9e1a-18923cfa10cb">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="1916bb35-89b1-4b90-9ead-75f9df6cbf83">
+                    <TableID>dbo_des_fact</TableID>
+                    <ColumnID>key_product</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="7063b1d5-9cbc-40ed-b168-0100c6f0f26f">
+          <CubeDimensionID>Des Battery Power</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="30ddd955-2a3e-4a06-bd4a-56819bddd620">
+              <AttributeID>Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="bf15aa7c-44eb-489e-a3c4-6211c439c46c">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="707677ce-c321-47b2-b7ca-16c3d1d3027c">
+                    <TableID>dbo_des_fact</TableID>
+                    <ColumnID>key_battery_power</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="4aa6550a-caf5-4e24-b6af-0a465363f003">
+    <DataSourceViewID>Project_dsv</DataSourceViewID>
+  </Source>
+</Cube>
